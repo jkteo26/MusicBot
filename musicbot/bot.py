@@ -2363,11 +2363,11 @@ class MusicBot(discord.Client):
 	
     async def cmd_ffmusic(self, player, channel, author, permissions, leftover_args, song_url):
         """
+	Run:
+	*p tinyurl.com/dffoomusic
         Usage:
-        Plays Final Fantasy tunes. Curated by Gyproc
+        Plays Final Fantasy tunes. Curated by Gyproc.
         """
-		song_url = 'tinyurl.com/dffoomusic'
-        return await self.cmd_play(player, channel, author, permissions, leftover_args, song_url)
 
 if __name__ == '__main__':
     bot = MusicBot()
