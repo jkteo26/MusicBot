@@ -2366,7 +2366,7 @@ class MusicBot(discord.Client):
         Usage:
         Plays Final Fantasy tunes. Curated by Gyproc
         """
-	song_url = 'tinyurl.com/dffoomusic'
+		song_url = 'tinyurl.com/dffoomusic'
         return await self.cmd_play(player, channel, author, permissions, leftover_args, song_url)
 
 if __name__ == '__main__':
